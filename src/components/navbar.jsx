@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 const Dropdown = ({ children }) => {
   return (
-    <nav className='flex items-center space-x-6 xl:space-x-8'>
+    <nav className='hidden md:flex items-center space-x-6 xl:space-x-8'>
       {children}
     </nav>
   )
@@ -13,9 +13,9 @@ export const DropdownItem = ({ section }) => {
   const [openDropdown, setOpenDropdown] = useState(false);
   return (
     <div
-      onMouseOver={() => setOpenDropdown(true)}
+      // onMouseOver={() => setOpenDropdown(true)}
       onMouseLeave={() => {
-        setOpenDropdown(false);
+        // setOpenDropdown(false);
       }}
     >
       <a className="hover:text-rust transition-all flex items-center text-xs font-normal tracking-[2px] leading-6 uppercase">
@@ -45,10 +45,10 @@ export const DropdownItem = ({ section }) => {
 const Navbar = () => {
   return (
     <header className='w-full bg-emerald px-6'>
-      <div className="container px-[15px] py-[14px]">
+      <div className="container md:px-[15px] py-[14px]">
         <div className='flex justify-between relative'>
           <Image
-            className='max-w-[75px] lg:max-w-none lg:block hidden'
+            className='max-w-[75px] lg:max-w-none'
             src="https://www.linklogistics.com/images/link-logo-black.svg"
             alt="Link Logistics Logo"
             width={100}

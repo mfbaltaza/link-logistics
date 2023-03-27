@@ -2,11 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-.container {
-  width: 100%;
-  margin: 0 auto;
-  /* Max width goes in media query */
-  max-width: 1140px;
+@layer utilities {
+  .container {
+    width: 100%;
+    /* margin: 0 auto; */
+    /* Max width goes in media query */
+    max-width: 1140px;
+  }
 }
 
 @layer base {

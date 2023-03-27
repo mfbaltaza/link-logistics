@@ -13,7 +13,7 @@ const GridCard = () => {
         </p>
         <div className="flex flex-col sm:flex-row items-end sm:justify-end">
           <a
-            className="mt-5 text-cement border-b-2 uppercase hover:border-white/0 text-[10px] font-bold leading-[10px] tracking-[2px]"
+            className="mt-5 text-cement border-b-2 uppercase hover:border-white/0 text-[10px] font-bold leading-[10px] tracking-[2px] transition-all"
             href="https://www.linklogistics.com/news/link-logistics-provides-fourth-quarter-and-full-year-2022-results"
           >
             Read More
