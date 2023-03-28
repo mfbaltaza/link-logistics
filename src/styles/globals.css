@@ -14,34 +14,34 @@
 @layer base {
   @font-face {
     font-family: "TTHoves";
-    src: url("/public/fonts/3B00A2_0_0.eot");
-    src: url("/public/fonts/3B00A2_0_0.eot?#iefix") format("embedded-opentype"),
-      url("/public/fonts/3B00A2_0_0.woff2") format("woff2"),
-      url("/public/fonts/3B00A2_0_0.woff") format("woff"),
-      url("/public/fonts/3B00A2_0_0.ttf") format("truetype");
+    src: url("../../public/fonts/3B00A2_0_0.eot");
+    src: url("../../public/fonts/3B00A2_0_0.eot?#iefix") format("embedded-opentype"),
+      url("../../public/fonts/3B00A2_0_0.woff2") format("woff2"),
+      url("../../public/fonts/3B00A2_0_0.woff") format("woff"),
+      url("../../public/fonts/3B00A2_0_0.ttf") format("truetype");
     font-weight: 600;
     font-style: normal;
   }
 
   @font-face {
     font-family: "TTHoves";
-    src: url("/public/fonts/3B00A2_1_0.eot");
-    src: url("/public/fonts/3B00A2_1_0.eot?#iefix") format("embedded-opentype"),
-      url("/public/fonts/3B00A2_1_0.woff2") format("woff2"),
-      url("/public/fonts/3B00A2_1_0.woff") format("woff"),
-      url("/public/fonts/3B00A2_1_0.ttf") format("truetype");
+    src: url("../../public/fonts/3B00A2_1_0.eot");
+    src: url("../../public/fonts/3B00A2_1_0.eot?#iefix") format("embedded-opentype"),
+      url("../../public/fonts/3B00A2_1_0.woff2") format("woff2"),
+      url("../../public/fonts/3B00A2_1_0.woff") format("woff"),
+      url("../../public/fonts/3B00A2_1_0.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
   }
 
   @font-face {
     font-family: "TTHoves";
-    src: url("/public/fonts/TTHoves-Medium.eot");
-    src: url("/public/fonts/TTHoves-Medium.eot?#iefix")
+    src: url("../../public/fonts/TTHoves-Medium.eot");
+    src: url("../../public/fonts/TTHoves-Medium.eot?#iefix")
         format("embedded-opentype"),
-      url("/public/fonts/TTHoves-Medium.woff2") format("woff2"),
-      url("/public/fonts/TTHoves-Medium.woff") format("woff"),
-      url("/public/fonts/TTHoves-Medium.ttf") format("truetype");
+      url("../../public/fonts/TTHoves-Medium.woff2") format("woff2"),
+      url("../../public/fonts/TTHoves-Medium.woff") format("woff"),
+      url("../../public/fonts/TTHoves-Medium.ttf") format("truetype");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -49,12 +49,12 @@
 
   @font-face {
     font-family: "TTHoves";
-    src: url("/public/fonts/TTHoves-Light.eot");
-    src: url("/public/fonts/TTHoves-Light.eot?#iefix")
+    src: url("../../public/fonts/TTHoves-Light.eot");
+    src: url("../../public/fonts/TTHoves-Light.eot?#iefix")
         format("embedded-opentype"),
-      url("/public/fonts/TTHoves-Light.woff2") format("woff2"),
-      url("/public/fonts/TTHoves-Light.woff") format("woff"),
-      url("/public/fonts/TTHoves-Light.ttf") format("truetype");
+      url("../../public/fonts/TTHoves-Light.woff2") format("woff2"),
+      url("../../public/fonts/TTHoves-Light.woff") format("woff"),
+      url("../../public/fonts/TTHoves-Light.ttf") format("truetype");
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -62,18 +62,18 @@
 
   @font-face {
     font-family: "TTHoves";
-    src: url("/public/fonts/TTHoves-Bold.eot");
-    src: url("/public/fonts/TTHoves-Bold.eot?#iefix")
+    src: url("../../public/fonts/TTHoves-Bold.eot");
+    src: url("../../public/fonts/TTHoves-Bold.eot?#iefix")
         format("embedded-opentype"),
-      url("/public/fonts/TTHoves-Bold.woff2") format("woff2"),
-      url("/public/fonts/TTHoves-Bold.woff") format("woff"),
-      url("/public/fonts/TTHoves-Bold.ttf") format("truetype");
+      url("../../public/fonts/TTHoves-Bold.woff2") format("woff2"),
+      url("../../public/fonts/TTHoves-Bold.woff") format("woff"),
+      url("../../public/fonts/TTHoves-Bold.ttf") format("truetype");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
   }
 
-  @font-face {
+  /* @font-face {
     font-family: "link";
     src: url("/public/icons/link.eot?musff");
     src: url("/public/icons/link.eot?musff#iefix") format("embedded-opentype"),
@@ -83,5 +83,5 @@
     font-weight: normal;
     font-style: normal;
     font-display: block;
-  }
+  } */
 }

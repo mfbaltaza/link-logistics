@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        body: ['TTHoves', 'sans-serif']
+        ttHoves: ['TTHoves', 'sans-serif']
       },
       colors: {
         emerald: 'rgb(150, 183, 192)',

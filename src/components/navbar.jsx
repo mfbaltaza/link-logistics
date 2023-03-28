@@ -44,8 +44,8 @@ export const DropdownItem = ({ section }) => {
 
 const Navbar = () => {
   return (
-    <header className='w-full bg-emerald px-6'>
-      <div className="container md:px-[15px] py-[14px]">
+    <header className='w-full bg-emerald px-6 font-ttHoves'>
+      <div className="container md:px-[15px] py-[14px] md:mx-auto">
         <div className='flex justify-between relative'>
           <Image
             className='max-w-[75px] lg:max-w-none'

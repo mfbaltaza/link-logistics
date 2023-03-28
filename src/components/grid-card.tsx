@@ -5,7 +5,7 @@ const GridCard = () => {
       bg-[url('https://cms.linklogistics.com/wp-content/uploads/2023/01/2525Kramer_2023_Propertyphoto_br46140-09-2.png')]"
     >
       <div className="bg-slate text-cement text-sm px-4 md:p-[15px] py-[30px] md:min-h-[135px] min-h-[135px]">
-        <p className="uppercase leading-[1.2em] font-medium mb-2">
+        <p className="uppercase leading-[1.2em] font-medium mb-2 tracking-[2px]">
           Link logistics provides q4, FY 2022 RESULTS
         </p>
         <p>
