@@ -100,6 +100,117 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="relative bg-slate" id="">
+        <div className="md:container mx-auto px-[15px] md:px-0 py-3 md:text-left">
+          <div className="flex md:flex-row-reverse flex-col-reverse ">
+            <div className="w-full md:w-1/2 md:px-5 md:pt-5 md:pb-[23px] py-3  wow fadeInRight">
+              <div className="relative h-full min-h-full a flex flex-col justify-center false undefined ">
+                <div className="flex flex-col w-full">
+                  <h4 className="md:mb-[28px] mb-2 font-medium text-gold text-lg md:text-[31px] md:leading-[31px]">
+                    National scale, local service
+                  </h4>
+                </div>
+                <div>
+                  <div className="mb-4 md:mb-7 text-gold text-sm md:text-base">
+                    <p>
+                      Our large footprint in gateway cities, key distribution
+                      hubs and high-population growth areas enable us to provide
+                      world-className, personalized service throughout the U.S.
+                    </p>
+                  </div>
+                  <Button link="https://www.linklogistics.com/portfolio/">
+                    View Our Portfolio
+                  </Button>
+                </div>
+              </div>
+            </div>
+            <div className="md:px-5 md:w-1/2 w-full">
+              <div className="bg-center bg-cover sm:min-h-[300px] min-h-[160px] w-full border-gold border-2 wow fadeInLeft rounded-tl-[60px] md:rounded-tl-[100px] bg-[url('https://cms.linklogistics.com/wp-content/uploads/2021/07/GettyImages-1147340803-scaled.jpg')]"></div>
+            </div>
+          </div>
+        </div>
+        <div className="md:container mx-auto px-[15px] md:px-0 py-3 md:text-right">
+          <div className="flex md:flex-row flex-col-reverse ">
+            <div className="w-full md:w-1/2 md:px-5 md:pt-5 md:pb-[23px] py-3  wow fadeInLeft">
+              <div className="relative h-full min-h-full a flex flex-col justify-center false undefined ">
+                <div className="flex flex-col w-full">
+                  <h4 className="md:mb-[28px] mb-2 font-medium text-gold text-lg md:text-[31px] md:leading-[31px]">
+                    Building a satisfying career
+                  </h4>
+                </div>
+                <div>
+                  <div className="mb-4 md:mb-7 text-gold two-col-content-left text-sm md:text-base">
+                    Our commitment to employee well-being, satisfaction and
+                    support enables us to attract, develop, inspire and reward
+                    great people.
+                  </div>
+                  <Button link="https://www.linklogistics.com/careers/">
+                    VIEW JOB OPENINGS
+                  </Button>
+                </div>
+              </div>
+            </div>
+            <div className="md:px-5 md:w-1/2 w-full">
+              <div className="bg-center bg-cover sm:min-h-[300px] min-h-[160px] w-full border-gold border-2 wow fadeInRight rounded-tr-[60px] md:rounded-tr-[100px] bg-[url('https://cms.linklogistics.com/wp-content/uploads/2021/07/Order-number-2070570404-scaled.jpg')]"></div>
+            </div>
+          </div>
+        </div>
+        <div className="md:container mx-auto px-[15px] md:px-0 py-3 md:text-left">
+          <div className="flex md:flex-row-reverse flex-col-reverse ">
+            <div className="w-full md:w-1/2 md:px-5 md:pt-5 md:pb-[23px] py-3  wow fadeInRight">
+              <div className="relative h-full min-h-full a flex flex-col justify-center false undefined ">
+                <div className="flex flex-col w-full">
+                  <h4 className="md:mb-[28px] mb-2 font-medium text-gold text-lg md:text-[31px] md:leading-[31px]">
+                    We design and build warehouses that allow our customers to
+                    evolve
+                  </h4>
+                </div>
+                <div>
+                  <div className="mb-4 md:mb-7 text-gold text-sm md:text-base">
+                    Link seamlessly manages the entire process of delivering
+                    facilities that support our customers’ long-term growth
+                    strategies.
+                  </div>
+                  <Button link="https://www.linklogistics.com/custom-property-development/">
+                    Learn More
+                  </Button>
+                </div>
+              </div>
+            </div>
+            <div className="md:px-5 md:w-1/2 w-full">
+              <div className="bg-center bg-cover sm:min-h-[300px] min-h-[160px] w-full border-gold border-2 wow fadeInLeft rounded-tl-[60px] md:rounded-tl-[100px] bg-[url('https://cms.linklogistics.com/wp-content/uploads/2021/07/GettyImages-1216505422-scaled.jpg')]"></div>
+            </div>
+          </div>
+        </div>
+        <div className="md:container mx-auto px-[15px] md:px-0 py-3 md:text-right">
+          <div className="flex md:flex-row flex-col-reverse ">
+            <div className="w-full md:w-1/2 md:px-5 md:pt-5 md:pb-[23px] py-3  wow fadeInLeft">
+              <div className="relative h-full min-h-full a flex flex-col justify-center false undefined ">
+                <div className="flex flex-col w-full">
+                  <h4 className="md:mb-[28px] mb-2 font-medium text-gold text-lg md:text-[31px] md:leading-[31px]">
+                    From the ground up: a holistic approach to ESG
+                  </h4>
+                </div>
+                <div>
+                  <div className="mb-4  md:mb-7 text-gold two-col-content-left text-sm md:text-base">
+                    <p>
+                      Sustainability is built into our foundation. At the heart
+                      of everything we do, it drives our commitment to renewable
+                      energy, green building technology and carbon neutrality.
+                    </p>
+                  </div>
+                  <Button link="https://www.linklogistics.com/esg/">
+                    Learn More
+                  </Button>
+                </div>
+              </div>
+            </div>
+            <div className="md:px-5 md:w-1/2 w-full">
+              <div className="bg-center bg-cover sm:min-h-[300px] min-h-[160px] w-full border-gold border-2 wow fadeInRight rounded-br-[60px] md:rounded-br-[100px] bg-[url('https://cms.linklogistics.com/wp-content/uploads/2021/07/365-north-ave-carol-stream-5-scaled.jpeg')]"></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
