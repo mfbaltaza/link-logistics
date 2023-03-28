@@ -1,6 +1,8 @@
+import { useEffect } from "react";
 import CardsGrid from "@/components/cards-grid";
 import Head from "next/head";
 import ConnectionsBanner from "@/components/connections-banner";
+import Button from "@/components/ui/button";
 
 export default function Home() {
   return (
@@ -68,6 +70,36 @@ export default function Home() {
       </div>
       <CardsGrid />
       <ConnectionsBanner />
+      <div className="py-10 md:px-5 bg-slate">
+        <div className="md:container mx-auto px-[15px] md:px-0 py-3 md:text-left">
+          <div className="flex md:flex-row-reverse flex-col-reverse ">
+            <div className="w-full md:w-1/2 md:px-5 md:pt-5 md:pb-[23px] py-3 wow fadeInRight">
+              <div className="h-full min-h-full a justify-center false flex flex-col ">
+                <div className="flex flex-col w-full">
+                  <h4 className="md:mb-[28px] mb-2 font-medium text-gold text-lg md:text-[31px] md:leading-[31px]">
+                    Link&apos;s 2021 ESG Report
+                  </h4>
+                </div>
+                <div>
+                  <div className="mb-4 md:mb-7 text-gold text-sm md:text-base">
+                    <span>
+                      At Link, strong environmental, social and governance (ESG)
+                      practices are core to our identity as a firm. Our 2021 ESG
+                      report recaps our progress during the calendar year and
+                      shows how we will continue to redefine what sustainability
+                      looks like in the industrial real estate sector.
+                    </span>
+                  </div>
+                  <Button link="/esg-2021-report/">Explore the report</Button>
+                </div>
+              </div>
+            </div>
+            <div className="md:px-5 md:w-1/2 w-full">
+              <div className="bg-center bg-cover sm:min-h-[300px] min-h-[160px] w-full border-gold border-2 wow fadeInLeft rounded-bl-[60px] md:rounded-bl-[100px] bg-[url('https://cms.linklogistics.com/wp-content/uploads/2022/07/6695BusinessPkwy_Marketing_2021_PropertyPhoto_bt42540.jpg')]"></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
