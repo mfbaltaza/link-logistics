@@ -1,8 +1,9 @@
 import { useEffect } from "react";
 import CardsGrid from "@/components/cards-grid";
 import Head from "next/head";
-import ConnectionsBanner from "@/components/connections-banner";
 import Button from "@/components/ui/button";
+import ConnectionsBanner from "@/components/connections-banner";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -200,18 +201,10 @@ export default function Home() {
               </div>
             </div>
           </div>
-          {/* <div className="col-span-1 flex flex-col items-start justify-center md:flex-row w-full">
-            <div className="w-full  flex flex-col justify-center items-center text-center md:mt-[20px]">
-              <p className="xl:text-[62px] lg:text-[52px] xl:leading-[62px] lg:leading-[52px] text-[48px] leading-[48px]  font-light">
-                1000+
-              </p>
-              <p className="lead lg:lead--lg">employees throughout the U.S.</p>
-            </div>
-            <div className="hidden md:block h-[160px] min-w-[2px] mx-[30px] bg-slate"></div>
-          </div> */}
         </div>
       </div>
       <CardsGrid />
+      <Footer />
     </>
   );
 }

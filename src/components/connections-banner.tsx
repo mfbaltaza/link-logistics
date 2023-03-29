@@ -1,7 +1,7 @@
 const ConnectionsBanner = () => {
   return (
     <div className="mx-[15px] my-[60px] flex flex-col-reverse rounded-br-[60px] rounded-tl-[60px] border-2 border-gold bg-cement md:flex-row md:rounded-br-[100px] md:rounded-tl-[100px]">
-      <div className="w-full px-4 md:w-1/2 md:pl-36 md:pr-16 md:pt-10 md:pb-10">
+      <div className="w-full px-4 md:w-1/2 md:py-10 md:pl-36 md:pr-16">
         <div className="ml-auto max-w-[490px]">
           <h4 className="mt-[10px] mb-2 text-base font-medium md:mt-0 md:mb-7 md:text-[31px]">
             It is all about connections

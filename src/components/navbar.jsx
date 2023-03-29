@@ -1,13 +1,13 @@
-import Image from 'next/image'
-import { useState } from 'react';
+import Image from "next/image";
+import { useState } from "react";
 
 const Dropdown = ({ children }) => {
   return (
-    <nav className='hidden md:flex items-center space-x-6 xl:space-x-8'>
+    <nav className="hidden items-center space-x-6 md:flex xl:space-x-8">
       {children}
     </nav>
-  )
-}
+  );
+};
 
 export const DropdownItem = ({ section }) => {
   const [openDropdown, setOpenDropdown] = useState(false);
@@ -18,7 +18,7 @@ export const DropdownItem = ({ section }) => {
         // setOpenDropdown(false);
       }}
     >
-      <a className="hover:text-rust transition-all flex items-center text-xs font-normal tracking-[2px] leading-6 uppercase">
+      <a className="flex items-center text-xs font-normal uppercase leading-6 tracking-[2px] transition-all hover:text-rust">
         <span>{section}</span>
         <svg
           className="ml-2"
@@ -34,36 +34,41 @@ export const DropdownItem = ({ section }) => {
           ></path>
         </svg>
       </a>
-      {openDropdown ?
+      {openDropdown ? (
         <div className="dropdown absolute translate-x-0 pt-8">
-          <div className="wild bg-white">hey, it ain&apos;t that bad right?</div>
-        </div> : ''}
+          <div className="wild bg-white">
+            hey, it ain&apos;t that bad right?
+          </div>
+        </div>
+      ) : (
+        ""
+      )}
     </div>
-  )
-}
+  );
+};
 
 const Navbar = () => {
   return (
-    <header className='w-full bg-emerald px-6 font-ttHoves'>
-      <div className="container md:px-[15px] py-[14px] md:mx-auto">
-        <div className='flex justify-between relative'>
+    <header className="w-full bg-emerald px-6 font-ttHoves">
+      <div className="container py-[14px] md:mx-auto md:px-[15px]">
+        <div className="relative flex justify-between">
           <Image
-            className='max-w-[75px] lg:max-w-none'
+            className="max-w-[75px] lg:max-w-none"
             src="https://www.linklogistics.com/images/link-logo-black.svg"
             alt="Link Logistics Logo"
             width={100}
             height={26}
           />
           <Dropdown>
-            <DropdownItem section='portfolio' />
-            <DropdownItem section='capabilities' />
-            <DropdownItem section='about' />
-            <DropdownItem section='careers' />
+            <DropdownItem section="portfolio" />
+            <DropdownItem section="capabilities" />
+            <DropdownItem section="about" />
+            <DropdownItem section="careers" />
           </Dropdown>
         </div>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
